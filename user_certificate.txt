@@ -1,0 +1,69 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 4096 (0x1000)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=in, ST=odisha, L=bhubaneswar, O=Cv Raman Global University, OU=1, CN=pratyush/emailAddress=kpratyush232@gmail.com
+        Validity
+            Not Before: Feb 29 04:36:07 2024 GMT
+            Not After : Feb 28 04:36:07 2025 GMT
+        Subject: C=in, ST=odisha, O=Cv Raman Global University, OU=1, CN=pratyush/emailAddress=kpratyush232@gmail.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:ce:6a:19:37:a8:16:3d:b5:ca:6b:6f:84:30:08:
+                    29:88:96:db:87:70:21:17:89:2a:64:88:8e:a6:57:
+                    b3:cb:e6:a5:73:e1:99:e8:43:27:68:f8:38:2b:ca:
+                    f0:6f:a6:7b:01:65:d3:44:39:80:85:af:aa:28:22:
+                    21:0c:ed:15:98:a0:ee:5d:0e:71:5b:29:81:32:57:
+                    83:9a:4e:9f:d5:e7:72:2a:f1:04:17:dd:0b:48:16:
+                    9b:4b:ac:d4:77:8d:8e:03:36:eb:f0:a0:c2:95:a7:
+                    ed:45:84:e8:6c:d4:bd:4f:16:1f:bd:8c:ca:d6:c2:
+                    ef:60:bc:a4:15:1d:b6:e2:21
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                88:95:56:30:57:8B:24:CF:43:B5:B2:09:4C:C9:60:F3:6F:9B:7C:84
+            X509v3 Authority Key Identifier: 
+                0F:35:AD:5F:74:C9:30:80:E7:F5:CD:2C:D9:E9:25:2A:11:41:E7:54
+    Signature Algorithm: sha256WithRSAEncryption
+    Signature Value:
+        0e:84:e4:45:e2:25:cb:ec:81:8b:5b:a9:ca:63:5e:ea:ef:7f:
+        ba:d9:68:ab:04:46:ae:e2:cb:65:c6:8f:58:59:c5:4e:6d:bd:
+        18:0a:ec:d9:e6:36:a6:6d:3a:e6:21:f2:97:54:5f:c6:fd:6c:
+        6c:7c:70:21:a1:81:66:f4:d2:3e:31:15:6f:ed:54:1c:0c:ea:
+        5c:4b:f7:b7:c1:af:c7:e2:30:74:cb:61:70:5a:c6:da:ca:1f:
+        2a:b3:ba:03:e1:1b:52:4b:2b:77:80:00:64:e7:83:99:01:2c:
+        c2:f3:64:c9:0b:e6:d7:60:66:64:92:5e:55:fa:5b:18:78:09:
+        4a:29:d5:d9:4f:7c:a1:01:d4:d3:9d:84:3f:85:56:43:60:82:
+        f7:53:5f:ba:02:e1:c5:f8:19:22:bf:d9:02:91:ea:84:7d:cc:
+        79:74:b0:6b:36:59:49:e1:15:34:c9:06:63:b0:d9:96:69:21:
+        51:15:05:59:93:1e:3d:60:0a:bf:b3:03:08:93:4c:fc:b0:ef:
+        36:b5:a0:40:12:28:ff:17:0f:e0:81:e0:bb:3a:02:8d:78:0a:
+        d8:41:08:b1:97:ff:c9:1a:eb:8b:00:a9:23:7f:91:e9:41:32:
+        f8:5f:95:d2:88:63:22:97:55:92:5d:f0:6f:27:17:d5:12:91:
+        6a:e0:90:b4
+-----BEGIN CERTIFICATE-----
+MIIDbzCCAlegAwIBAgICEAAwDQYJKoZIhvcNAQELBQAwgZ8xCzAJBgNVBAYTAmlu
+MQ8wDQYDVQQIDAZvZGlzaGExFDASBgNVBAcMC2JodWJhbmVzd2FyMSMwIQYDVQQK
+DBpDdiBSYW1hbiBHbG9iYWwgVW5pdmVyc2l0eTEKMAgGA1UECwwBMTERMA8GA1UE
+AwwIcHJhdHl1c2gxJTAjBgkqhkiG9w0BCQEWFmtwcmF0eXVzaDIzMkBnbWFpbC5j
+b20wHhcNMjQwMjI5MDQzNjA3WhcNMjUwMjI4MDQzNjA3WjCBiTELMAkGA1UEBhMC
+aW4xDzANBgNVBAgMBm9kaXNoYTEjMCEGA1UECgwaQ3YgUmFtYW4gR2xvYmFsIFVu
+aXZlcnNpdHkxCjAIBgNVBAsMATExETAPBgNVBAMMCHByYXR5dXNoMSUwIwYJKoZI
+hvcNAQkBFhZrcHJhdHl1c2gyMzJAZ21haWwuY29tMIGfMA0GCSqGSIb3DQEBAQUA
+A4GNADCBiQKBgQDOahk3qBY9tcprb4QwCCmIltuHcCEXiSpkiI6mV7PL5qVz4Zno
+Qydo+DgryvBvpnsBZdNEOYCFr6ooIiEM7RWYoO5dDnFbKYEyV4OaTp/V53Iq8QQX
+3QtIFptLrNR3jY4DNuvwoMKVp+1FhOhs1L1PFh+9jMrWwu9gvKQVHbbiIQIDAQAB
+o00wSzAJBgNVHRMEAjAAMB0GA1UdDgQWBBSIlVYwV4skz0O1sglMyWDzb5t8hDAf
+BgNVHSMEGDAWgBQPNa1fdMkwgOf1zSzZ6SUqEUHnVDANBgkqhkiG9w0BAQsFAAOC
+AQEADoTkReIly+yBi1upymNe6u9/utloqwRGruLLZcaPWFnFTm29GArs2eY2pm06
+5iHyl1Rfxv1sbHxwIaGBZvTSPjEVb+1UHAzqXEv3t8Gvx+IwdMthcFrG2sofKrO6
+A+EbUksrd4AAZOeDmQEswvNkyQvm12BmZJJeVfpbGHgJSinV2U98oQHU052EP4VW
+Q2CC91NfugLhxfgZIr/ZApHqhH3MeXSwazZZSeEVNMkGY7DZlmkhURUFWZMePWAK
+v7MDCJNM/LDvNrWgQBIo/xcP4IHguzoCjXgK2EEIsZf/yRrriwCpI3+R6UEy+F+V
+0ohjIpdVkl3wbycX1RKRauCQtA==
+-----END CERTIFICATE-----

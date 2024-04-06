@@ -1,0 +1,71 @@
+<html>
+ <head>
+ </head>
+ <body>
+   <div class="form">
+    <form method="POST" action="resource.php">
+      <p>
+      <label for="resource_name">Resource Name </label>
+      <input type="text" name="resource_name" id="resource_name">
+      <label for="access_duration">Access Duration </label>
+      <input type="text" name="access_duration" id="access_duration">
+      <label for="access_permission">Access Permission </label>
+      <input type="text" name="access_permission" id="access_permission">
+      </p>
+      <p>
+      <input type="submit" name="submit" id="submit" value="Submit">
+      </p>
+    </form>
+ </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+ <div class="row">
+   <div class="col-sm-8">
+    <div class="table-responsive">
+      <table class="table table-bordered">
+       <thead><tr><th>S.N</th>
+         <th>Full Name</th>
+         <th>Role</th>
+         <th>Email</th>
+    </thead>
+    <tbody>
+        
+
+  <?php
+      if(is_array($fetchData)){      
+      $sn=1;
+      foreach($fetchData as $data){
+    ?>
+      <tr>
+      <td><?php echo $sn; ?></td>
+      <td><?php echo $data['resource_name']??''; ?></td>
+     </tr>
+     <?php
+      $sn++;}}else{ ?>
+      <tr>
+        <td colspan="3">
+    <?php echo $fetchData; ?>
+  </td>
+    <tr>
+    <?php
+    } 
+  
+    </tbody>
+     </table>
+   </div> 
+            <!-- <a href="page.html"> Register </a> <br>
+            <a href="login.php"> Login </a>   <br> -->
+            <a href="logout.php"> Logout </a>   
+</div>
+</div>
+</div>
+</body>
+</html>
